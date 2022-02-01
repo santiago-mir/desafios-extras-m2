@@ -4,7 +4,6 @@ class Product {
   name: string;
 }
 class ProductCollection {
-  productos: Product[] = [];
   getAll() {
     const promiseData = jsonfile.readFile("./products.json");
     promiseData.then((productos) => {
