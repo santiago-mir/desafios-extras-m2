@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/santiago-mir/desafios-extras-m2/issues"
   },
-  "homepage": "https://github.com/santiago-mir/desafios-extras-m2#readme"
+  "homepage": "https://github.com/santiago-mir/desafios-extras-m2#readme",
+  "dependencies": {
+    "jsonfile": "^6.1.0"
+  }
 }
